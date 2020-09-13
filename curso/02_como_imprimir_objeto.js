@@ -6,6 +6,8 @@ const PrimeraApp = () => {
     hola: 'como estas',
     yo: 'muy bien'
   };
+
+  // usaremos el metodo stringify de los jsons 
   return (
     <>
       <h1> { JSON.stringify(saludo) } </h1>
